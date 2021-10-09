@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Découverte du HTML</title>
+    </head>
+    <body>
+	
+    <!-- titre principal en tête de votre page -->                       
+           
+                    <h1 id="banniere">A la découverte de la programmation WEB</h1>
+                  
+     <!-- Récapitulatif sur les balises HTML que j'ai découvertes durant cet exercice-->       
+            <h2> Les balises HTML que j'ai découvertes</h2>
+			<p>En synthèse, compléter le tableau suivant :</p>
+
+	<!-- Présentation des informations sous la forme tabulaire-->       
+		<table style="width:75%">
+			<tr>
+				<th style="width:15%">Balise</th>
+				<th style="width:30%">Description</th>
+				<th style="width:30%">Exemple d'utilisation</th>
+			</tr>
+			<tr>
+				<td>&lt;!-- --></td>
+				<td>Commentaire</td>
+				<td>&lt;!-- ici un commentaire --></td>
+			</tr>
+			<tr>
+				<td>&lt;p></td>
+				<td>Paragraphe</td>
+				<td>&lt;p>Ceci est un paragraphe.&lt;/p></td>
+			</tr>
+			<tr>
+				<td>&lt;h2> à &lt;h6></td>
+				<td>Utilisés pour la hiérarchisation des titres.</td>
+				<td><h1>Titre</h1><h2>Titre</h2><h3>Titre</h3></td>
+			</tr>
+			<p>
+    Voici une photo que j'ai prise lors de mes dernières vacances à la montagne :<br />
+    <img src="images/Alanturing.jpg" widht="400" height="250" alt="Photo de Alan turing" />
+</p>
+			<tr>
+				<td>&lt;br /></td>
+				<td>Saut de ligne</td>
+				<td>Text &lt;br /></td>
+			</tr>
+			<tr>
+				<td>&lt;strong></td>
+				<td>Mise en exergue d’un texte – Texte en Gras</td>
+				<td>&lt;strong><strong>Text</td>
+			</tr>
+			<tr>
+				<td>&lt;ul></td>
+				<td>Pour créer une liste à puces.</td>
+				<td>&lt;ul><ul>Class<br/><li>Text</td>
+			</tr>
+			<tr>
+				<td>&lt;ol></td>
+				<td>Définit une liste ordonné</td>
+				<td>&lt;ol><ol>Text<br/>Text<br/>Text<br/></td>
+			</tr>
+			<tr>
+				<td>&lt;li></td>
+				<td>Élément d’une liste</td>
+				<td>&lt;li>Text&lt;li></td>
+			</tr>
+			<tr>
+				<td>&lt;dt></td>
+				<td>Définition d’un terme</td>
+				<td><dl>Text<br/>&lt;dt>Text&lt;dt></td>
+			</tr>
+			<tr>
+				<td>&lt;table></td>
+				<td>Definir un tableau</td>
+				<td><table>
+					<thead>
+						<tr>
+							<th colspan="2">&lt;table>The table header</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>The table body</td>
+							<td>with two columns&lt;/table></td>
+				</tr>
+			</tbody>
+		</table></td>
+			</tr>
+			<tr>
+				<td>&lt;a></td>
+				<td>Définit un lien</td>
+				<td>&lt;a><a href="images/Lienurl.html" title="" >Voici mon lien</a>&lt;/a></td>
+			</tr>
+			<tr>
+				<td>&lt;img /></td>
+				<td>Afficher une Image</td>
+				<td>&lt;img>Image</td>
+			</tr>
+			<tr>
+				<td>&lt;hr /></td>
+				<td>Permets de créer une ligne de séparation.</td>
+				<td><p>§1: LA Permière et Unique regle.</p>
+
+<hr>&lt;hr />
+
+<p>§2: La seconde regle.</p>
+</td>
+			<tr>
+				<td>&lt;em /></td>
+				<td>Permets de créer un text emphatique.</td>
+				<td><p>[&lt;p>Texte Normal ][&lt;em><em> Texte emphatique </em>&lt;/em > &lt;/p >]</p>
+</td>
+			</tr>
+		</table>
+
+			
+		<!-- photos des personnages qui ont marqué l'informatique en lien avec leur page wikipedia -->
+		<!-- les photos sont enregistrées dans le dossier images/grandsNoms -->
+		
+			 <h2> Les grands noms de l'informatique</h2>
+            <ul>
+				<li><a href="#" title="Architecture des ordinateurs" >John Von Neumann 1903-1957</a></li>
+				<li><a href="#" title="Premier compilateur ; langage COBOL" >Grace Hopper 1906-1992</a></li>
+				<li><a href="#" title="Fondements théoriques de l'informatique ; Machine de Turing ; décryptage de la machine Enigma utilisée par les nazis" >Alan Turing 1912-1954</a></li>
+				<li><a href="#" title="Inventeur du langage C ; co-développeur du système d'exploitation Unix" >Dennis Ritchie 1941-2011</a></li>
+				<li><a href="#" title="Le père du logiciel libre" >Richard Stallman 1953-</a></li>
+				<li><a href="#" title="L'inventeur du Web" >Tim Berners-Lee 1955-</a></li>
+				<li><a href="#" title="Créateur du noyau du système d'exploitation Linux en 1991" >Linus Torvalds 1969-</a></li>
+		     </ul>
+           
+         <!-- pied de page. Liens vers mes sites préférés -->		   
+            <footer>
+                <div id="mes_liens">
+                    <h3>Mes sites préférés</h3>
+                    <ul>
+                        <li><a href="#">HTML5, CSS3, javaScript, AJAX</a></li>
+                        <li><a href="#">OpenClassroom</a></li>
+						<li><a href="#">grafikart</a></li>
+						<li><a href="#">Site du lycée André Malraux de Béthune</a></li>
+                    </ul>                    
+                </div>
+            </footer>        
+    </body>
+</html>

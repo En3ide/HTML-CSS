@@ -1,0 +1,72 @@
+html body {
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 75%;
+}
+.enc {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #999;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    padding: 0;
+}
+p {
+	font-family: Expressway, sans-serif;
+
+}
+#titre {
+	font-family: over;
+	text-align: center;
+}
+
+@font-face {
+  font-family: "over";
+  src: url("Pixelmania.ttf");
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#objectifp {
+    border-style: solid;
+	background-color: #C4FDFF;
+}
+#objectifv {
+	background-color: #8EE5E8;
+	color: #000000;
+}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+element.style {
+}
+#main {
+    position: relative;
+    text-align: left;
+    max-width: 960px;
+    margin: auto;
+	background-color: #FFFFFF;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    text-align: center;
+    font: 0.9em "trebuchet ms", helvetica, arial, sans-serif;
+    background-color: white;
+    word-wrap: break-word;
+}
+.enc {
+    background: #999999;
+    border: 1px solid #E0DFDA;
+    padding: 10px;
+	color: #F1F1F1;
+}

@@ -1,0 +1,220 @@
+/* faire le choix de la couleur en HTML : http://htmlcolorcodes.com/fr/*/
+body{
+   /* A compléter */
+}
+
+#affiche{
+  /*A compléter*/
+}
+
+#banniere{
+   /* A compléter*/
+   background : #126017;
+        
+}
+
+.arrondi{
+   border-radius : /* A compléter*/
+}
+
+#logo_resto{
+      margin-left : 15px;
+	  margin-top : 15px;
+      float : left;
+	  height : 180px;
+}
+
+#banniere ul{
+   float : right;
+   background :#3AF24B;
+   width : 400px;
+   height : 140px;
+   /* A compléter */
+}
+
+
+#salle{
+     margin : 5px 0px 0px 30px;
+	 float : left;	 
+}
+
+#salle img{
+   /* A compléter */
+}
+
+#presentation{
+     margin-top : 5px;
+	 float : left;
+	 background : #34C924;
+	 padding : 0px 15px;
+	
+	/* A compléter */	  
+}
+
+.type_resto{
+   /* A compléter */
+   font-weight: bold;
+   text-align : center;
+}
+.titre_niveau1{
+  font-size : 2.5em;
+}
+.titre_niveau2{
+  font-size : 2em;
+}
+
+.titre_niveau3{
+  font-size : 1.5em;
+}
+
+.presentation{
+      height : 140px;
+}
+
+.resto_intitule{
+   font-size : 1.6em;
+   color : white;
+}
+
+.decalage{
+   margin-left : 75px;  
+}
+
+.decalage1{
+   margin-left : 140px;  
+}
+
+.banniere_titre{
+    font-weight : bold;	
+}
+
+.centre{
+	text-align : center;
+}
+
+.titre{
+     font-size : 1.2em;
+	 color : blue;
+ } 
+ 
+#contenu{
+ width : 800px;
+ /*A compléter*/
+ clear : both;
+}
+
+#encart{
+  	clear : both;
+	margin : 0px;
+	padding-top : 0px;
+}
+
+#encart>ul{
+   /*A compléter */
+}
+
+#encart div{
+     /* A compléter */
+	 
+}
+
+#encart div>ul{
+    list-style-type : square;	 
+}
+
+#encart div h3{
+     margin-top : 0px;
+     text-align : center;
+	/* A compléter */
+}
+
+#bandeauImages{
+    width : 800px;
+    height : 125px;
+	clear: both;
+}
+
+#bandeauImages ul li{
+    /* A compléter */	 
+}
+
+.date{
+   /* A compléter */
+	margin-bottom : 10px;
+	margin-top : 15px;
+	font-weight : bold;
+}
+.jour{
+    font-size : 18px;
+	color : red;
+	margin-bottom : 10px;
+}
+
+.image{
+	margin-top : 25px;
+	margin-bottom : 40px;
+    border: solid 8px white;
+	-webkit-transform: rotate(-13deg);
+    height : 140px;
+    margin-left : 80px;	
+ } 
+ 
+ .rotationD{
+   -webkit-transform: rotate(10deg);
+ }
+ 
+ .rotationG{
+   -webkit-transform: rotate(-10deg);
+ }
+ 
+ 
+ul{
+	list-style-type : none;
+}
+
+#footer{
+    width : 800px;
+	/* A compléter */
+  	text-align : center;	
+}
+
+#footer>a{
+      float : left;
+	  display : block;
+	  margin : 50px 0px 50px 15px;
+	  
+}
+
+#contact{
+   /* A compléter */
+}
+
+#horaire{
+  /* A compléter */
+}
+
+#horaire td{
+  border-bottom : 2px solid black;
+}
+
+#horaire  {
+   /* A compléter */
+}
+
+#horaire  tr:nth-child(2n+2){
+   /* A compléter */
+}
+
+#contact ul li{
+     margin : 0px;
+	 padding : 0px;
+}
+#contact ul li img{
+     margin-top : 15px;
+}
+#contact ul {
+     margin-top : 5px;
+	 padding : 0px;
+}
+
+

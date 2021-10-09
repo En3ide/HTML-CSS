@@ -1,0 +1,154 @@
+/*Styles-Principaux*/
+body {
+    background-image: url("../images/fond_jaune.png");
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #333333
+}
+#bloc_pages {
+    width: 900px;
+    margin: auto;
+}
+section h1,footer h1,nav a {
+    text-transform: uppercase;
+}
+/*-En-tête--*/
+header {
+    background-image: url("../images/separateur.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+#titre_principal h1{
+    font-size: 5em;
+    font-family: Arial, cursive;
+    margin-bottom: 0px;
+}
+h1,#titre_principal #logo {
+    display: inline-block;
+    margin-top: 0px;
+}
+#titre-principal h2 {
+    size: 1.1em;
+    margin-top: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+/*--Liens de navigation--*/
+nav {
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+}
+nav ul {
+    list-style: none;
+}
+nav ul *{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a {
+    size: 1.3em;
+    color: #181818;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #760000;
+    border-top: 3px;
+    border-bottom: 3px;
+}
+/*Bannière_Image*/
+#banniere_image {
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0px 14px 14px #1c1a19;
+    background-image: url("../images/bangkok.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 30px;
+}
+.bouton_rouge {
+    text-decoration: none;
+    display: inline-block;
+    height: 20px;
+    position: absolute;
+    background-color: #993300;
+    font-size: 1.2em;
+    text-align:  center;
+    color: white;
+}
+/*--Corps/Section--*/
+article,aside {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+article {
+    width: 60%;
+    margin-right: 15px;
+}
+aside {
+    position: relative ;
+    width: 30%;
+    background-color: #706b64;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: white;
+    box-shadow: 4px 4px 5px #1c1a19;
+}
+article p {
+    font-size: 0.8em;
+}
+#bulle {
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+/*-footer-*/
+footer {
+    background-image: url("../images/separateur.png");
+    background-repeat: repeat-x;
+    background-position: top;
+    margin-top: 10px;
+    padding-top: 30px;
+
+}
+footer p,footer ul {
+    font-size: 0.8em;
+}
+p.ragot {
+    font-style: italic;
+}
+footer h1{
+    font-size: 1.1em;
+}
+#tweet,#mes_photos,#mes_amis {
+    display: inline-block;
+    vertical-align: top;
+}
+#tweet {
+    width: 25%;
+}
+#mes_photos {
+    width: 40%;
+}
+#mes_amis {
+    width: 25%;
+}
+#mes_photos img{
+    border: 1px, solid, #181818;
+    margin-right: 2px;
+}
+#mes_amis ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+    width: 48%;
+    padding-left: 2px;
+}
+a.amis {
+    text-decoration: none;
+    color: #760000;
+}

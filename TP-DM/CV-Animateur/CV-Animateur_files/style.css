@@ -1,0 +1,105 @@
+body{
+	background-color:#353b43;
+	font-family:anaheim,sans-serif;
+	color:#737f8a;
+	-webkit-font-smoothing:antialiased}
+a {
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:400;
+	font-family:quattrocento sans,sans-serif;
+	color:#afbac4}
+.border-meghna{
+	border-top:2px solid rgba(236,239,241,.07);
+	height:1px;
+	margin:15px auto 0;
+	position:relative;
+	width:30%}
+.border-meghna:before{
+	background-color:#fff;
+	content:'';
+	height:6px;
+	left:50%;
+	margin-left:-20px;
+	position:absolute;
+	top:-4px;
+	width:50px;
+	background-color:#57cbcc}
+.btn-main{
+	background:#57cbcc;
+	color:#fff;
+	display:inline-block;
+	font-size:14px;
+	letter-spacing:1px;
+	padding:10px 35px;
+	text-transform:uppercase}
+.section{
+	padding:125px 0}
+.section-sm{
+	padding:150px 0}
+.title{
+	padding-bottom:60px}
+.title h2 span{
+	color:#57cbcc}
+.bg-1{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed}
+
+*,::after,::before{box-sizing:border-box}
+article,aside,figcaption,figure,footer,header,hgroup,main,nav,section{
+	display:block}[tabindex="-1"]
+.h2,h2{
+	font-size:2rem}
+.h3,h3{
+	font-size:1.75rem}
+.h4,h4{
+	font-size:1.5rem}
+.h5,h5{
+	font-size:1.25rem}
+.h6,h6{
+	font-size:1rem}
+.container{
+	width:100%;
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto}
+@media (min-width:1200px){
+	.container{
+		max-width:1140px}}
+.container-fluid{
+	width:100%;
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto}
+.row{
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
+	margin-right:-15px;
+	margin-left:-15px}
+.col-lg-12,.col-lg-6{
+	position:relative;
+	width:100%;
+	padding-right:15px;
+	padding-left:15px}
+.contact{
+	text-align: right}
+.col-lg-6{
+	-ms-flex:0 0 50%;
+	flex:0 0 50%;
+	max-width:50%}
+@media (min-width:992px){
+	.m-lg-0{
+		margin:0}
+	.mt-lg-0,.my-lg-0{
+		margin-top:0}
+	.mr-lg-0,.mx-lg-0{
+		margin-right:0}}
+.ml-lg-auto,.mx-lg-auto{margin-left:auto}
+.text-center{
+	text-align:center}

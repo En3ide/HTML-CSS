@@ -1,0 +1,119 @@
+/********************* LA PAGE ***********************/
+body{
+	background-color:black;
+	font-family:arial;
+	color:white;
+	background: url(../img/fond1.jpg) no-repeat center;
+	background-size: 47%;
+	font-size:12px;
+}
+#page{
+	margin:auto;
+	width:800px;
+	height:800px;
+}
+/********************* HEADER ***********************/
+header{
+	display: flex;
+}
+
+#head_img{
+	margin-top: 20px;
+}
+
+#head_txt{
+	margin-left: auto;
+	font-size: 45px;
+}
+
+/********************* SECTION ***********************/
+section {
+	margin-left: auto;
+}
+#rond {
+	text-align: center;
+	overflow: hidden;
+	-webkit-border-radius:80px;
+	-moz-border-radius:80px;
+	border-radius:80px;
+	width:170px;
+	height:170px;
+	background-color:#ff9900;
+	margin-left: auto;
+	margin-bottom: 60%;
+}
+#p2, #big {
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 0%;
+	margin-top: 0%;
+}
+#p1, #p2, #p3 {
+	color: black;
+}
+#p3 {
+	font-size: 11px;
+}
+.text_exp {
+	font-size: smaller;
+}
+/*	{
+	position:absolute;
+	bottom: 10px; 
+	right:5%;
+	font-size:15px;
+	margin: 0;
+	padding:0;
+}
+*/
+#centre {
+	display: flex;
+	font-size: 15px;
+	margin: auto;
+}
+#centre h3 {
+	text-align: center;
+	margin: 0%;
+}
+/********************* FORMULAIRE ***********************/
+form {
+	background-color: rgb(255, 248, 235);
+	border-radius: 25%;
+	border-color: #ff9900;
+	border-style: solid;
+	color: black;
+	padding-right: 15px;
+	margin-top: 125px;
+	margin-bottom: 20px;
+}
+.pt-2 {
+	position: absolute;
+}
+.pt-1 {
+	margin-left: 75px;
+}
+#civilité {
+    margin-left: 20px;
+    text-align: left;
+}
+#civilité * {
+    display: inline-block;
+}
+/********************* FOOTER ***********************/
+footer {
+	margin-top: auto;
+	margin-bottom: auto;
+	bottom:15px;
+	height:20%;
+	margin-right:25px;
+	margin-left:25px;
+}
+footer #orange {
+	position: relative;
+	float: right;
+	width: 13%;
+	height: auto;
+}
+/*à compléter pour les blocks contenus dans le footer*/
+
+

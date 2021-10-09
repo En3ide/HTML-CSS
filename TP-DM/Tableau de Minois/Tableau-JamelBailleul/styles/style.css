@@ -1,0 +1,44 @@
+p {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: rotate(45deg);
+    font-size: 80px;
+    color: blanchedalmond;
+}
+/* Tableau*/
+#oui {
+    background-color: brown;
+    margin: auto;
+    width: 1070px;
+    height: 900px;
+}
+#contenu {
+    margin-top: 140px;
+    margin: auto;
+    width: 930px;
+    height: 760px;
+}
+#contenu * {
+    margin-top: 69px;
+}
+img {
+    position: absolute;
+}
+#cadre {
+    size
+}
+#p1 {
+    margin-left: 0.1%;
+}
+#p2 {
+    margin-left: 15%;
+}
+#p3 {
+    margin-left: 26.4%;
+    margin-top: 22.5%;
+}
+#apple {
+    margin-top: 3%;
+    margin-left: 17%;
+}
